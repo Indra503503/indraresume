@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vulebeti Indra - Resume</title>
+<style>
+  :root{
+    --ink:#1f2a33;
+    --muted:#5b6b76;
+    --line:#d7dde1;
+    --accent:#0e5f6b;
+    --accent-soft:#e6f1f2;
+    --paper:#ffffff;
+    --bg:#eef2f3;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    font-family:'Segoe UI', Calibri, Arial, sans-serif;
+    color:var(--ink);
+    padding:32px 16px;
+  }
+  .page{
+    max-width:850px;
+    margin:0 auto;
+    background:var(--paper);
+    padding:48px 56px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+    border-top:6px solid var(--accent);
+  }
+  header{
+    margin-bottom:24px;
+  }
+  h1{
+    margin:0 0 6px 0;
+    font-size:32px;
+    letter-spacing:0.5px;
+    color:var(--ink);
+  }
+  .contact{
+    font-size:14px;
+    color:var(--muted);
+  }
+  .contact span{
+    margin-right:18px;
+  }
+  h2{
+    font-size:15px;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+    color:var(--accent);
+    border-bottom:2px solid var(--accent-soft);
+    padding-bottom:6px;
+    margin:28px 0 12px 0;
+  }
+  section p{
+    margin:0 0 10px 0;
+    font-size:14.5px;
+    line-height:1.55;
+  }
+  .edu-item{
+    margin-bottom:6px;
+    font-size:14.5px;
+  }
+  .skills-grid p{
+    margin:0 0 8px 0;
+    font-size:14.5px;
+    line-height:1.5;
+  }
+  .skills-grid b{
+    color:var(--ink);
+  }
+  .job{
+    margin-bottom:22px;
+  }
+  .job-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    flex-wrap:wrap;
+  }
+  .job-title{
+    font-weight:700;
+    font-size:16px;
+  }
+  .project-name{
+    font-weight:700;
+    margin-top:10px;
+    font-size:14.5px;
+  }
+  .role-line{
+    font-size:14px;
+    color:var(--muted);
+    margin:4px 0 8px 0;
+  }
+  .desc{
+    font-size:14px;
+    line-height:1.55;
+    margin-bottom:10px;
+  }
+  .tech-line{
+    font-size:13.5px;
+    margin:2px 0;
+  }
+  .tech-line b{
+    color:var(--ink);
+  }
+  ul.resp{
+    margin:8px 0 0 0;
+    padding-left:20px;
+  }
+  ul.resp li{
+    font-size:14px;
+    line-height:1.55;
+    margin-bottom:5px;
+  }
+  hr.sep{
+    border:none;
+    border-top:1px dashed var(--line);
+    margin:18px 0;
+  }
+  @media print{
+    body{background:var(--paper); padding:0;}
+    .page{box-shadow:none; padding:24px;}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Vulebeti Indra</h1>
+    <div class="contact">
+      <span>Email: indra81422@gmail.com</span>
+      <span>Mobile: +91-6302953751</span>
+    </div>
+  </header>
+
+  <section>
+    <h2>Summary</h2>
+    <p>Banking Domain QA Engineer with 4.0 years of experience in Core Banking and Payments Testing (Finacle). Expertise in SWIFT (MT/MX), SEPA, NEFT, RTGS, and international payment workflows. Strong experience in Functional, Integration (SIT), and UAT testing with hands-on knowledge in SQL validation and API testing using Postman. Good exposure to Automation Testing using Selenium WebDriver, Playwright with Java and TestNG. Skilled in Agile methodologies, defect management, and end-to-end test lifecycle execution.</p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="edu-item">✓ Sri Krishnadevaraya University</div>
+    <div class="edu-item">✓ Bachelor of Science (MPCS) | 2018 – 2022</div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <p><b>Automation Tools:</b> Selenium WebDriver, Playwright, TestNG.</p>
+      <p><b>Testing Types:</b> Functional, Integration, Regression, Smoke, Sanity, UAT, API Testing.</p>
+      <p><b>Programming:</b> Java, SQL.</p>
+      <p><b>Tools:</b> JIRA, Postman, Git, WinSCP, RabbitMQ (basic), Kafka.</p>
+      <p><b>Framework:</b> Page Object Model (POM)</p>
+      <p><b>Build Tool:</b> Maven.</p>
+      <p><b>Databases:</b> Oracle, MySQL.</p>
+      <p><b>Methodologies:</b> Agile, SDLC, STLC.</p>
+      <p><b>Domain:</b> Banking, Payments, SWIFT, SEPA, NEFT, RTGS, ISO 20022.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <div class="job-title">Asics Technologies Pvt Ltd – Hyderabad</div>
+      </div>
+      <div class="role-line">Senior System Engineer</div>
+
+      <div class="project-name">Project Name: BANK OF AMERICA</div>
+
+      <p class="desc"><b>Description:</b><br>
+      Worked on a core banking and digital payments application handling high-volume financial transactions with strong focus on accuracy, security, and compliance. The system supports end-to-end payment workflows including domestic and international fund transfers, validation, reconciliation, and settlement.</p>
+
+      <p class="tech-line"><b>Technologies:</b> Banking, Payment Transactions, SWIFT, SQL</p>
+      <p class="tech-line"><b>Tools:</b> Selenium WebDriver, TestNG, Postman, SQL, JIRA, RabbitMQ</p>
+      <p class="tech-line"><b>Role:</b> Automation Test Engineer</p>
+
+      <p class="desc"><b>Responsibilities:</b></p>
+      <ul class="resp">
+        <li>Automated end-to-end payment workflows using Selenium WebDriver with Java</li>
+        <li>Developed and executed automated test scripts for NEFT, RTGS, IMPS, and SWIFT transactions</li>
+        <li>Used TestNG for test execution, grouping, prioritization, and reporting</li>
+        <li>Designed automation framework using Page Object Model (POM) for maintainability</li>
+        <li>Integrated test scripts with SQL queries for backend data validation</li>
+        <li>Performed API automation validation using Postman collections</li>
+        <li>Validated asynchronous transaction flows using RabbitMQ</li>
+        <li>Maintained test scripts and ensured high test coverage for critical payment scenarios (~95%)</li>
+        <li>Logged and tracked defects using JIRA during automation test execution</li>
+        <li>Participated in Agile ceremonies and contributed to sprint deliverables</li>
+      </ul>
+    </div>
+
+    <hr class="sep">
+
+    <div class="job">
+      <div class="project-name">Project Name: EUROPE BANK</div>
+      <div class="role-line">Role: Automation Test Engineer</div>
+
+      <p class="desc"><b>Responsibilities:</b></p>
+      <ul class="resp">
+        <li>Automated SWIFT payment workflows using automation tools (Selenium-based approach)</li>
+        <li>Developed and executed automated test cases for international transactions, including SEPA and OE Payments</li>
+        <li>Designed automation test scenarios covering fund transfers, settlements, and compliance validations (~90% coverage)</li>
+        <li>Collaborated with Business Analysts and Development teams for defect tracking and resolution using JIRA</li>
+        <li>Achieved ~95% defect resolution within planned timelines</li>
+        <li>Contributed to ~85% on-time sprint delivery through active participation in Agile ceremonies</li>
+        <li>Improved application quality by reducing production defects by ~30% through effective test coverage</li>
+        <li>Performed API validation using Postman for payment services</li>
+        <li>Validated backend data using SQL queries for transaction accuracy</li>
+        <li>Maintained automation scripts and ensured stability during regression cycles</li>
+      </ul>
+    </div>
+
+  </section>
+
+</div>
+</body>
+</html>
